@@ -11,21 +11,21 @@
             <i class="fas fa-home"></i>
             <span>Home</span>
           </a>
-          <a class="nav-item nav-link text-uppercase" routerLink="/users" routerLinkActive="active">
+          <!-- <a class="nav-item nav-link text-uppercase" routerLink="/todos" routerLinkActive="active">
             <i class="fas fa-users"></i>
-            <span>Users</span>
-          </a>
+            <span>ToDo</span>
+          </a> -->
         </div>
         <div class="navbar-nav ml-auto">
           <div class="nav-item" ngbDropdown placement="bottom-right">
             <a id="user-dropdown" class="nav-link" ngbDropdownToggle>
               <i class="fas fa-user-circle"></i>
             </a>
-            <div ngbDropdownMenu aria-labelledby="user-dropdown">
+            <!-- <div ngbDropdownMenu aria-labelledby="user-dropdown">
               <h6 class="dropdown-header">
                 <span  >Logged in as</span> <b>{{email | async}}</b></h6>
               <div class="dropdown-divider"></div>
-              <button class="dropdown-item" (click)="logout()"  >Logout</button>
+              <button class="dropdown-item" (click)="logout()"  >Logout</button> -->
             </div>
           </div>
         </div>
